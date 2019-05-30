@@ -1,0 +1,58 @@
+/* @import '~bootstrap/dist/css/bootstrap.min.css'; */
+.tour {
+    color: #48a9bb;
+    /* font-family: cooperhewitt-heavy, stans-serif;  */
+    font-family: stans-serif; 
+    
+}
+
+.dateobject-container {
+    background-color: #f4d81e; 
+    
+}
+
+.dateobject-month {
+    font-size: 1.062em;
+    font-family: cooperhewitt-heavy;
+
+}
+
+.dateobject-day {
+    font-size: 2.62em;
+
+}
+
+.cityobject , .tourobject {
+    font-size: 1em
+}
+
+.cityobject {
+
+}
+
+.tourobject {
+
+}
+
+.tourobject-moreinfo {
+    font-size: 12px;
+    font-family: cooperhewitt-book;
+    color: black;
+}
+
+@media only screen and (min-width: 1024px){
+    .cityobject, .tourobject {
+        font-size: 25px;
+    } 
+  
+}
+
+.ticketsobject-button {
+    background-color: #48a9bb;
+
+}
+
+.ticketsobject-link{
+    color: #e8e8e0;
+}
+
