@@ -1,33 +1,35 @@
 
-<strong> <h1> Tours </h1></strong>
+
 <div class="row tour">
-    <div class="col-2 dateobject-container">
+    <div class="col-sm-1 dateobject-container">
       <div class="dateobject-month">
       {{month}} month
       </div>
       <div class="dateobject-day">
-      {{day}} day
+      {{day}} da
      </div>
    </div> <!--end of col-->
-    <div class="col-2 offset-2">
+    <div class="col-sm-2 ">
       <div class="cityobject">
-      {{city}} City
+      {{city}} City, CT
     </div>
+  </div> <!--end of col-->
+    <div class="col-sm-2 offset-sm-1">
     <div class="tourobject">
       {{tour}} tour name
       <div class="tourobject-moreinfo">
         <a href=""> More Info </a>
       </div>
-    </div>
+    </div>  
   </div> <!-- end of col-->
-  <div class="col-2 offset-2">
+  <div class="col-sm-2 offset-sm-2">
     <div class="ticketsobject">
       <button class="ticketsobject-button">
         <!-- for some reason the following a tag broke my code from rendering, regardless w/o not we posted the component into
         the app.component.html to render...
        later i discovered the A element wasn't working b/c the A was CAPITALIZED and angular must be case sensetive with
      their javascript elements.  -->
-         <a href="http://www.summersonic.com/2019/" target="_blank" class="ticketsobject-button-link">TICKETS</a> 
+         <a href="http://www.summersonic.com/2019/" target="_blank" class="ticketsobject-button-link">Tickets</a> 
       </button>    
     </div>
   </div> <!-- end of col-->

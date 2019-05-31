@@ -1,9 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
 @import '../node_modules/bootstrap/dist/css/bootstrap.css';
 @charset "UTF-8";@font-face{font-family:CooperHewitt-Book;src:url(https://ua-1.cdn-fullscreendirect.com/10286/2016_0527_10286_3944.woff) format("woff")}@font-face{font-family:CooperHewitt-Heavy;src:url(https://ua-1.cdn-fullscreendirect.com/10286/2016_0527_10286_3941.woff) format("woff")}
-
+@font-face{font-family:CooperHewitt-Heavy;src:url(https://ua-1.cdn-fullscreendirect.com/10286/2016_0527_10286_3941.woff) format("woff")}
 body, html {
     font-famiy: CooperHewitt-book, cooperhewitt-heavy, stans-serif;
     letter-spacing: .025rem;
     font-size: 16px;
+    
 }
+
+

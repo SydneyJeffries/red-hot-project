@@ -1,10 +1,19 @@
  @import '~bootstrap/dist/css/bootstrap.min.css'; 
+
+
+
 .tour {
     color: #48a9bb;
     font-family: cooperhewitt-heavy, stans-serif; 
     text-align: center;
     text-transform: uppercase;
-    letter-spacing: .025rem;
+    letter-spacing: 0;
+    margin-top: 1.87rem;
+    margin-bottom: 1.87rem;
+}
+
+.tour > .col-sm-2 {
+    padding: .5rem;
 }
 
 h1 {
@@ -12,12 +21,22 @@ h1 {
     font-family: cooperhewitt-heavy, stans-serif; 
     text-transform: uppercase;
     letter-spacing: .025rem;
+    font-size: 3.5rem ;
 }
+
+.tour {
+  background-color:  rgba(255,254,249,.2);
+  
+}
+
+
+
 
 .dateobject-container {
     background-color: #f4d81e; 
     font-family: cooperhewitt-heavy;
-  
+    padding: .7rem;
+    padding-bottom: 0rem;
     font-weight: 400;
 }
 
@@ -36,6 +55,8 @@ h1 {
 .cityobject , .tourobject {
     font-size: 1rem
 }
+
+
 
 .cityobject {
 
@@ -60,21 +81,26 @@ h1 {
 }
 
 .ticketsobject-button a{
-font-size: .875rem;
+font-size: 11px;
 font-family: cooperHewitt-Heavy;
 line-height: 1;
 color: #fffef9;
 text-decoration: none;
-padding: 1rem 2rem .8rem;
-}
+padding: 14px 30px 10px;
+text-transform: uppercase;
 
 
-@media only screen and (min-width: 1024px){
-    .cityobject, .tourobject {
-        font-size: 1.58rem;
-    } 
-  
 }
+
+.ticketsobject-button {
+    border:none;
+   
+}
+
+.ticketsobject-button:hover {
+    background-color:  #f4d81e;
+}
+
 
 .ticketsobject-button {
     background-color: #48a9bb;
@@ -85,3 +111,15 @@ padding: 1rem 2rem .8rem;
     color: #e8e8e0;
 }
 
+/* stuff for larger screen sizes goes here: */
+@media only screen and (min-width: 1110px){
+    .cityobject , .tourobject , .dateobject-month {
+        font-size: 1.1rem
+    }
+
+    .tour > .col-sm-2 {
+        padding: 1rem;
+    }
+    
+
+}

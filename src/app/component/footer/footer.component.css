@@ -1,1 +1,13 @@
 /* @import 'node_modules/bootstrap/dist/css/bootstrap.css' */
+
+h1 {
+    color: #48a9bb;
+    font-family: cooperhewitt-heavy, stans-serif; 
+    text-transform: uppercase;
+    letter-spacing: .025rem;
+    font-size: 3.5rem ;
+}
+
+@media only screen and (min-width: 1117px ) {
+    h1 {   font-size: 1.1rem; }
+ }
