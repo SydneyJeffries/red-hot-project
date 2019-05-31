@@ -12,4 +12,5 @@ export class ToursComponent implements OnInit {
   ngOnInit() {
   }
 
+  
 }
