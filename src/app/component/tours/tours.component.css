@@ -60,13 +60,6 @@ h1 {
 
 
 
-.cityobject {
-
-}
-
-.tourobject {
-
-}
 
 
 .moreinfoobject {
@@ -90,33 +83,35 @@ h1 {
     font-family: cooperhewitt-Book;
     color: black;
     text-decoration: none;
-    text-transform: none;
+   
+    
 
 }
 
 .tourobject-moreinfo > a:hover {
-     font-family: cooperhewitt-heavy; 
-   
+    font-family: cooperhewitt-heavy; 
+    /* font-size: .8rem; */
     color: #48a9bb;
 }
 
 .ticketsobject-button a , .moreinfo-button a{
-font-size: 11px;
-font-family: cooperHewitt-Heavy;
-line-height: 1;
-color: #fffef9;
-text-decoration: none;
-padding-top: 45px;
-padding-bottom: 45px;
-padding-left: 15px;
-padding-right: 15px;
-text-transform: uppercase;
+    font-size: 11px;
+    font-family: cooperHewitt-Heavy;
+    line-height: 1;
+    color: #fffef9;
+    text-decoration: none;
+   
+    text-transform: uppercase;
 
 }
 
-.ticketsobject-button, .moreinfo-button {
-    border:none;
- 
+.ticketsobject-button a, .moreinfo-button a {
+    text-transform: uppercase;
+    font-size: 11px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .ticketsobject-button:hover , .moreinfo-button:hover {
@@ -127,7 +122,11 @@ text-transform: uppercase;
 
 .ticketsobject-button , .moreinfo-button {
     background-color: #48a9bb;
-
+    border: none;
+    box-sizing: border-box;
+    height: 25px;
+    text-transform: uppercase;
+    font-size: 11px;
 }
 
 .ticketsobject-link, .moreinfo-button-link{
@@ -190,18 +189,21 @@ text-transform: uppercase;
     .cityobject {
         padding-top: 0;
         padding-bottom: 0;
+        vertical-align: middle;
     }
     
     .tourobject {
+        padding-top: 1rem;
         padding-bottom: 0;
+        vertical-align: middle;
     
     }
 
-    .cityobject , .tourobject , .ticketsobject { 
+    /* .cityobject , .tourobject , .ticketsobject { 
         margin-top: auto;
         margin-bottom: auto;
         padding-top: 1rem;
-    }
+    } */
 
     .ticketsobject-button {
         width: 112px;
