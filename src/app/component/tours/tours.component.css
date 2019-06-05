@@ -7,10 +7,12 @@
     font-family: cooperhewitt-heavy, stans-serif; 
     text-align: center;
     text-transform: uppercase;
-    letter-spacing: 0;
+    /* letter-spacing: 0; */
     margin-top: 1.87rem;
     margin-bottom: 1.87rem;
 }
+
+
 
 .tour > .col-sm-2 {
     padding: .5rem;
@@ -43,7 +45,7 @@ h1 {
 .dateobject-month {
     font-size: 1.062rem;
  
-   
+  
 
 }
 
@@ -66,11 +68,27 @@ h1 {
 
 }
 
+
+.moreinfoobject {
+    padding: 0;
+}
+
+
+
+
+
+.moreinfo-button {
+    width: 100%;
+   
+
+}
+
 .tourobject-moreinfo, .tourobject-moreinfo a {
-    font-size: .75rem;
+    font-size: .66rem;
     font-family: cooperhewitt-Book;
     color: black;
     text-decoration: none;
+    text-transform: none;
 
 }
 
@@ -80,46 +98,84 @@ h1 {
     color: #48a9bb;
 }
 
-.ticketsobject-button a{
+.ticketsobject-button a , .moreinfo-button a{
 font-size: 11px;
 font-family: cooperHewitt-Heavy;
 line-height: 1;
 color: #fffef9;
 text-decoration: none;
-padding: 14px 30px 10px;
+padding-top: 45px;
+padding-bottom: 45px;
+padding-left: 15px;
+padding-right: 15px;
 text-transform: uppercase;
 
-
 }
 
-.ticketsobject-button {
+.ticketsobject-button, .moreinfo-button {
     border:none;
-   
+ 
 }
 
-.ticketsobject-button:hover {
+.ticketsobject-button:hover , .moreinfo-button:hover {
     background-color:  #f4d81e;
+    color: #fffef9;
 }
 
 
-.ticketsobject-button {
+.ticketsobject-button , .moreinfo-button {
     background-color: #48a9bb;
 
 }
 
-.ticketsobject-link{
+.ticketsobject-link, .moreinfo-button-link{
     color: #e8e8e0;
 }
+
+
+.ticketsobject-button , .moreinfo-button {
+    width: 100%;
+    padding: 0;
+}
+
+.tour > .col-sm-2  {
+    padding: 0;
+}
+
 
 /* stuff for larger screen sizes goes here: */
 @media only screen and (min-width: 1110px){
     .cityobject , .tourobject , .dateobject-month {
-        font-size: 1.1rem
+        font-size: 1.3rem;
+        letter-spacing: 0rem;
+    }
+
+    .cityobject {
+        width: 27rem;
+        text-align: left;
+        
+    }
+
+    .cityobject-name {
+        padding-left: .9rem;
     }
 
     .tour > .col-sm-2 {
         padding: 1rem;
     }
     
+    .container-tour {
+       max-width: 1170px;
+    }
+  
 
+    .tourobject {
+       max-width: 517px;
+        text-align: left;
+    }
+
+    /* .ticketsobject{
+    
+        text-align: left;
+    } */
 }
