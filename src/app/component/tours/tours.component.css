@@ -55,7 +55,7 @@ h1 {
 }
 
 .cityobject , .tourobject {
-    font-size: 1rem
+    font-size: .97rem
 }
 
 
@@ -79,6 +79,8 @@ h1 {
 
 .moreinfo-button {
     width: 100%;
+    font-size: 14px;
+   
    
 
 }
@@ -142,6 +144,17 @@ text-transform: uppercase;
     padding: 0;
 }
 
+.cityobject {
+    padding-top: 1.2rem;
+    padding-bottom: .5rem;
+}
+
+.tourobject {
+    padding-bottom: 1.2rem;
+
+}
+
+
 
 /* stuff for larger screen sizes goes here: */
 @media only screen and (min-width: 1110px){
@@ -174,8 +187,23 @@ text-transform: uppercase;
         text-align: left;
     }
 
-    /* .ticketsobject{
+    .cityobject {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
     
-        text-align: left;
-    } */
+    .tourobject {
+        padding-bottom: 0;
+    
+    }
+
+    .cityobject , .tourobject , .ticketsobject { 
+        margin-top: auto;
+        margin-bottom: auto;
+        padding-top: 1rem;
+    }
+
+    .ticketsobject-button {
+        width: 112px;
+    }
 }
