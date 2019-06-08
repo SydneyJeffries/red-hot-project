@@ -1,8 +1,23 @@
 
-.tours-wing {
-display: inline;
-margin-left: 50%;
-margin-top: 0;
+ .tours-wing {
+    display: inline;
+    margin-left: 68%;
+    margin-top: 0;
+    height: 13rem;
+    }
 
+
+/*smaller screens */
+@media only screen and (max-width: 600px){ 
+
+    .tours-wing {
+        display: inline;
+        margin-left: 10%;
+        margin-top: 0;
+        width: 100%;
+        height: auto;
+        
+    
+        }
 
 }

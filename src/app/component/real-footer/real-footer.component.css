@@ -1,0 +1,98 @@
+@font-face{font-family:CooperHewitt-Book;src:url(https://ua-1.cdn-fullscreendirect.com/10286/2016_0527_10286_3944.woff) format("woff")}@font-face{font-family:CooperHewitt-Heavy;src:url(https://ua-1.cdn-fullscreendirect.com/10286/2016_0527_10286_3941.woff) format("woff")}
+@font-face{font-family:CooperHewitt-Heavy;src:url(https://ua-1.cdn-fullscreendirect.com/10286/2016_0527_10286_3941.woff) format("woff")}
+
+.footer-background {
+    background-image: Url('http://i66.tinypic.com/34zyc7o.jpg') ;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    height:auto; 
+    background-size: cover;
+
+} 
+
+.footer-button {
+    background-color: #48a9bb;
+    border: none;
+    padding: .7rem;
+    padding-right: 12px;
+    padding-left: 12px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-family: CooperHewitt-heavy, sans-serif;
+    font-weight: 400;
+    letter-spacing: .024rem;
+}
+
+.footer-button:hover {
+    background-color: #f4d81e;
+}
+
+.footer-comment-container {
+    margin-top: 27%;
+    color: white;
+    font-family: CooperHewitt-Heavy,sans-serif;
+    font-weight: 400;
+    font-size: .7rem ;
+    letter-spacing: 0;
+}
+
+.footer-tape {
+   
+    background-color: #48a9bb;
+    opacity: .8;
+    width: 76px;
+    height: 30px;
+    z-index: 2000;
+
+}
+
+
+.footer-background-yellow {
+    background-image: Url('http://i68.tinypic.com/2z53pko.jpg') ;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    height: auto;
+    background-size: cover;
+}
+
+
+.footer-copyright {
+    margin-top: 86px;
+    padding-bottom: 20px;
+    font-size: 8px;
+    font-family: CooperHewitt-Book,sans-serif;
+    
+    
+  
+}
+
+/* stuff for larger screen sizes goes here: */
+@media only screen and (min-width: 1110px){
+
+    .footer-background {
+    height: 30rem;
+}
+
+.footer-comment-container {
+    margin-top: 27%;
+}
+
+
+
+.footer-background-yellow {
+    background-image: Url('http://i68.tinypic.com/2dhs13b.jpg') ;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    height: 10rem;
+    background-size: cover;
+}
+
+.footer-copyright {
+    margin-top: 90px;
+}
+
+}

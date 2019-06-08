@@ -8,6 +8,8 @@ import { ToursComponent } from './component/tours/tours.component';
 import { HeaderComponent } from './component/header/header.component';
 import { NewsComponent } from './component/news/news.component';
 import { RealFooterComponent } from './component/real-footer/real-footer.component';
+import { ModalComponent } from './component/modal/modal.component';
+
 
 @NgModule({
   declarations: [
@@ -16,12 +18,15 @@ import { RealFooterComponent } from './component/real-footer/real-footer.compone
     ToursComponent,
     HeaderComponent,
     NewsComponent,
-    RealFooterComponent
+    RealFooterComponent,
+    ModalComponent
   ],
   imports: [
     BrowserModule,
-  
-    NgbModule.forRoot()
+   
+    NgbModule.forRoot(),
+    
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
