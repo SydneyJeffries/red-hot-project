@@ -7,6 +7,7 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { ToursComponent } from './component/tours/tours.component';
 import { HeaderComponent } from './component/header/header.component';
 import { NewsComponent } from './component/news/news.component';
+import { RealFooterComponent } from './component/real-footer/real-footer.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { NewsComponent } from './component/news/news.component';
     FooterComponent,
     ToursComponent,
     HeaderComponent,
-    NewsComponent
+    NewsComponent,
+    RealFooterComponent
   ],
   imports: [
     BrowserModule,

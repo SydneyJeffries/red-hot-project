@@ -6,7 +6,12 @@ body, html {
     font-famiy: CooperHewitt-book, cooperhewitt-heavy, stans-serif;
     letter-spacing: .025rem;
     font-size: 14px;
+    overflow-x: hidden;
     
+    background-image: url(http://i68.tinypic.com/xpzrbd.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 
