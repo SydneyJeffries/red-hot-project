@@ -1,0 +1,14 @@
+// these are commands to use the command prompt
+
+
+ng new stock-market
+ng serve 
+ng generate component stock/stock-item
+ng generate class model/stock
+npm install -g @angular/cli
+
+///getting a clone to run: 
+git clone http://cloneadressfromgithub.git
+cd cloneadress
+npm install
+ng serve 
