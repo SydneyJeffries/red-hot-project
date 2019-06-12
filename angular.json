@@ -133,5 +133,11 @@
       }
     }
   },
-  "defaultProject": "red-hot-project"
+ 
+  "defaultProject": "red-hot-project",
+  "schematics": {
+    "@schematics/angular:component": {
+      "styleext": "scss"
+    }
+  }
 }
