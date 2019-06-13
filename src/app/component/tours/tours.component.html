@@ -1,23 +1,22 @@
-
-
+<div *ngFor="let tourobject of tourobject">
 <div class="row tour ">
  
     <div class="col-sm-1 offset-sm-2 dateobject-container">
       <div class="dateobject-month">
-      {{month}} month
+      {{tourobject.month}} 
       </div>
       <div class="dateobject-day">
-      {{day}} da
+      {{tourobject.day}}
      </div>
    </div> <!--end of col-->
     <div class="col-sm-2  row-item">
       <div class="cityobject my-auto">
-      <span class="cityobject-name">{{city}} City, CT</span>
+      <span class="cityobject-name">{{tourobject.location}} </span>
     </div>
   </div> <!--end of col-->
-    <div class="col-sm-2 offset-sm-1 row-item">
+    <div class="col-sm-3 offset-sm-1 row-item">
     <div class="tourobject">
-     <span class="tourobject-name">{{tour}} tour name </span> 
+     <span class="tourobject-name">{{tourobject.tour}} </span> 
       <div class="tourobject-moreinfo d-none d-sm-block">
         <a href=""> More Info </a>
       </div>
@@ -42,3 +41,4 @@
       <div> 
  
 </div> <!--end of row-->
+</div>
