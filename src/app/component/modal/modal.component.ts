@@ -10,12 +10,15 @@ import {NgbModal, ModalDismissReasons} from '@ng-bootstrap/ng-bootstrap';
 export class ModalComponent  {
 
   closeResult: string;
+  comment: string;
+  setcomment: string;
 
   constructor(private modalService: NgbModal) {}
 
-  open(content) {
+  open(content: any) {
     this.modalService.open(content, {ariaLabelledBy: 'modal-basic-title'}).result.then((result) => {
       this.closeResult = `Closed with: ${result}`;
+      this.setcomment = this.comment;
     }, (reason) => {
       this.closeResult = `Dismissed ${this.getDismissReason(reason)}`;
     });

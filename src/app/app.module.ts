@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { FooterComponent } from './component/footer/footer.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
@@ -22,7 +22,8 @@ import { ModalComponent } from './component/modal/modal.component';
     ModalComponent
   ],
   imports: [
-    BrowserModule,
+    BrowserModule, 
+    FormsModule,
    
     NgbModule.forRoot(),
     
