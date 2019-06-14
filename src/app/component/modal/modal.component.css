@@ -10,3 +10,32 @@
   }
 
  
+  #modal-button {
+    background-color: #48a9bb;
+    border: none;
+    padding: .7rem;
+    padding-right: 12px;
+    padding-left: 12px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-family: CooperHewitt-heavy, sans-serif;
+    font-weight: 400;
+    letter-spacing: .024rem;
+    border-radius: 0;
+}
+
+#modal-button:hover, #modal-button:focus, #modal-button:active, #modal-button:hover {
+    background-color: #f4d81e;
+    border: none;
+}
+
+
+#modal-form {
+  padding: 2rem;
+}
+
+#modal-form > input {
+  display: block;
+  width: 20rem;
+}

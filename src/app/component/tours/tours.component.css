@@ -145,6 +145,7 @@ h1 {
     height: 25px;
     text-transform: uppercase;
     font-size: 11px;
+   
 }
 
 .ticketsobject-link, .moreinfo-button-link{
@@ -175,8 +176,27 @@ h1 {
 
 
 
+/*between ipad and small monitor */
+ @media only screen and (max-width: 1100px) 
+ { 
+
+    #ticketsobject, .tourobject, .cityobject  {
+       padding-top: 2rem;
+
+    }
+
+    
+
+
+ } 
+
+ 
+
+
+
+
 /* stuff for larger screen sizes goes here: */
-@media only screen and (min-width: 1110px){
+@media only screen and (min-width: 1100px){
     .cityobject , .tourobject , .dateobject-month {
         font-size: 1.3rem;
         letter-spacing: 0rem;
@@ -197,12 +217,12 @@ h1 {
     }
     
     .container-tour {
-       max-width: 1170px;
+       /* max-width: 1170px; */
     }
   
 
     .tourobject {
-       max-width: 517px;
+       /* max-width: 517px; */
         text-align: left;
     }
 
@@ -232,4 +252,33 @@ h1 {
     }
 
   
+}
+
+
+@media only screen and (max-width: 650px) 
+{ 
+
+    .ticketsobject-button , .moreinfo-button {
+        width: 100%;
+        padding: 0;
+    }
+    
+    .tour > .col-sm-2  {
+        padding: 0;
+    }
+    
+    .cityobject {
+        padding-top: 1.2rem;
+        padding-bottom: .5rem;
+    }
+    
+    .tourobject {
+        padding-bottom: 1.2rem;
+        padding-top: .5rem;
+    }
+
+    #ticketsobject {
+        padding: 0;
+    }
+
 }
