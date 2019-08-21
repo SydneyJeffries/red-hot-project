@@ -1,0 +1,151 @@
+.NewsItem:not(:hover) {
+    background-color: hsla(60,13%,90%,.2);
+}
+
+.NewsItem {
+    background: hsla(60,13%,90%,.65);
+    margin: 30px 0;
+    transition: .25s;
+}
+
+.NewsImgLink::before {
+    content: "";
+    display: block;
+    padding-top: 100%;   
+}
+
+.NewsImgLink {
+    display: block;
+    margin: auto;
+    position: relative;
+    box-shadow: 2px 2px 3px rgba(0,0,0,.35);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.NewsBody {
+    padding: 0 100px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.NewsHeader {
+    min-height: 100px;
+}
+
+.NewsFlags:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.NewsDate {
+    margin-top: 25px;
+    font-family: CooperHewitt-Heavy, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1;
+    color: #48a9bb;
+}
+
+.NewsTitle {
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #48a9bb;
+    position: relative;
+    font-family: CooperHewitt-Heavy,sans-serif;
+    font-weight: 400;
+}
+
+.NewsTitle:before {
+    content: "";
+    display: block;
+    width: 40px;
+    height: 96px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -40px;
+    background: #f4d81e;
+    opacity: .85;    
+}
+
+.NewsTitle a {
+    max-width: 400px;
+    display: block;
+    color: inherit;
+    text-decoration: none;
+}
+
+.NewsContent_Text {
+    margin-top: 40px;
+    max-width: 600px;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.NewsBody_Footer {
+    zoom: 1;
+    margin-top: auto;
+    padding-top: 25px;
+}
+
+.NewsBody_Footer:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+a.btn-t-default {
+    font-family: CooperHewitt-Heavy;
+    font-size: 14px;
+    line-height: 1;
+    text-transform: uppercase;
+    background: #48a9bb;
+    color: #fffef9;
+    padding: 14px 30px 10px;
+}
+
+.btn-t-default:hover {
+    background: #f4d81e;
+}
+
+#CalifornicationImg {
+    background-image: url(content\RHCP-Californication-COVER-450x450.jpg);
+}
+
+#PyramidsImg {
+    background-image: url(content\merchImg.gif);
+}
+
+#AustraliaImg {
+    background-image: url(content\GeelongAustralia.jpeg);
+}
+
+@media only screen and (min-width: 1428px) {
+    .NewsTitle:before {
+        transform: translate(-10px,-50%) translateX(-100px);
+    }
+
+    .NewsBody {
+        padding: 0 100px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .NewsItem {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .NewsImg {
+        flex: 0 0 32%;
+    }
+
+    .NewsTitle:before {
+        right: auto;
+        transform: translate(-10px,-50%) translateX(-4vw);
+    }
+}

@@ -1,0 +1,88 @@
+
+
+.alert {
+  border: 1px solid rgba(#c6538c, 0.88);
+
+}
+
+video {
+  object-fit: cover;
+  width: 100%;
+}
+
+* {
+    margin: 0;
+}
+
+h4.NewsTitle {
+    margin-bottom: 0;
+}
+
+body {
+    font-family: CooperHewitt-Book,sans-serif;
+    letter-spacing: .025em;
+    -webkit-font-smoothing: antialiased;
+}
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#HeaderDivider {
+    background: url(content\wood.jpg) no-repeat bottom;
+    height: 120px;
+    background-size: cover;
+    box-shadow: 0 10px 20px rgba(0,0,0,.8), 0 -15px 25px rgba(0,0,0,.6);
+}
+
+#HeaderBanner {
+    background-image: url(content\section-landing.jpeg);
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-height: 33.5714285714vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-color: #fff;
+    position: relative;
+    clear: both;
+    color: #fff;
+    padding: 0 20px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.contents {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 180px 15px 0px;
+}
+
+h1 {
+    color: #48a9bb;
+    font-family: cooperhewitt-heavy, stans-serif; 
+    text-transform: uppercase;
+    letter-spacing: .025rem;
+    /* font-size: 3.5rem ; */
+   font-size: 2rem;
+    display: block;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#nopadding  {
+    padding: 0;
+}
+
+.tourHeader {
+    font-weight: bold;
+    font-size: 56px;
+}
+
+@media only screen and (min-width: 1117px ) {
+    h1 {   font-size: 2.5rem;
+            text-align: left;
+         }
+ }
